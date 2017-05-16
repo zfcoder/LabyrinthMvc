@@ -1,0 +1,54 @@
+﻿body {
+    font-family: "Arial";
+    font-size: 12pt;
+    color: white;
+    background-color: black;
+}
+
+#mapmatrix .emptyblock {
+    background: white;
+}
+
+#mapmatrix .stoneblock {
+    background: black;
+}
+
+#mapmatrix .startblock {
+    background: red;
+}
+
+#mapmatrix .finishblock {
+    background: green;
+}
+
+#mapmatrix .pathblock {
+    background: gray;
+}
+
+#mapmatrix td {
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.changepointsform {
+    color: white;
+}
+
+.changepoints {
+    float: left;
+}
+
+.uploadfile {
+    padding: 10px;
+    margin-left: 280px;
+}
+
+.resultblock {
+    padding: 10px;
+    margin-left: 280px;
+}
+
+.controlcontainer {
+    height: 310px;
+}
